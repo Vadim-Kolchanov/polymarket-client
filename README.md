@@ -9,6 +9,7 @@ library.
 
 # Polymarket Kotlin Client
 
+[![Maven Central](https://img.shields.io/maven-central/v/dev.kolchanov/polymarket-client.svg)](https://central.sonatype.com/artifact/dev.kolchanov/polymarket-client)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Kotlin](https://img.shields.io/badge/Kotlin-2.2.0-blue.svg)](https://kotlinlang.org)
 [![Java](https://img.shields.io/badge/Java-21-orange.svg)](https://openjdk.org)

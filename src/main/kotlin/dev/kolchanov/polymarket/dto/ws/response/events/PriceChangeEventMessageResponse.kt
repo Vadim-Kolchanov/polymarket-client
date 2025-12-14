@@ -6,6 +6,7 @@ import java.math.BigDecimal
 
 /**
  * Example Message:
+ * ``` json
  * {
  *   "market": "0x0270a8ce890ade23ace25488e1e00480189373e7fee45a6ae80f3cae9bd01e85",
  *   "price_changes": [
@@ -22,6 +23,7 @@ import java.math.BigDecimal
  *   "timestamp": "1763200441958",
  *   "event_type": "price_change"
  * }
+ * ```
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 class PriceChangeEventMessageResponse(

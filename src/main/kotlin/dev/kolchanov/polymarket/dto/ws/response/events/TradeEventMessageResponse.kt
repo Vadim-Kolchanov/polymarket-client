@@ -9,6 +9,7 @@ import java.math.BigDecimal
 
 /**
  * Example Message:
+ * ``` json
  * {
  *   "type": "TRADE",
  *   "id": "81843817-fea1-4639-9dba-aa76844ef266",
@@ -46,6 +47,7 @@ import java.math.BigDecimal
  *   "timestamp": "1764556051810",
  *   "event_type": "trade"
  * }
+ * ```
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 class TradeEventMessageResponse(

@@ -1,11 +1,12 @@
 plugins {
     kotlin("jvm") version "2.2.0"
+    `java-library`
     id("co.uzzu.dotenv.gradle") version "4.0.0"
     id("com.vanniktech.maven.publish") version "0.35.0"
 }
 
 group = "dev.kolchanov"
-version = "0.0.1"
+version = "0.0.2"
 java.sourceCompatibility = JavaVersion.VERSION_21
 
 java {
@@ -34,7 +35,7 @@ dependencies {
     implementation("org.web3j:core:4.14.0")
 
     // Websocket
-    implementation("org.java-websocket:Java-WebSocket:1.5.4")
+    api("org.java-websocket:Java-WebSocket:1.5.4")
 
     // HTTP Client
     implementation("com.squareup.okhttp3:okhttp:5.3.0")

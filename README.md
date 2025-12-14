@@ -87,7 +87,7 @@ repositories {
 }
 
 dependencies {
-    implementation("dev.kolchanov:polymarket-client:0.0.1")
+    implementation("dev.kolchanov:polymarket-client:0.0.2")
 }
 ```
 
@@ -99,7 +99,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'dev.kolchanov:polymarket-client:0.0.1'
+    implementation 'dev.kolchanov:polymarket-client:0.0.2'
 }
 ```
 
@@ -110,7 +110,7 @@ dependencies {
 <dependency>
     <groupId>dev.kolchanov</groupId>
     <artifactId>polymarket-client</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
 </dependency>
 ```
 

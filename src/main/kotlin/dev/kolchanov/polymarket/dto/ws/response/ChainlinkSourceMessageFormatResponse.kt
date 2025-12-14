@@ -6,6 +6,7 @@ import java.math.BigDecimal
 
 /**
  * Example Message:
+ * ``` json
  * {
  *   "connection_id": "UERwreZFrPECI6g="
  *   "topic": "crypto_prices_chainlink",
@@ -18,6 +19,7 @@ import java.math.BigDecimal
  *     "value": 3456.78
  *   }
  * }
+ * ```
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 data class ChainlinkSourceMessageFormatResponse(

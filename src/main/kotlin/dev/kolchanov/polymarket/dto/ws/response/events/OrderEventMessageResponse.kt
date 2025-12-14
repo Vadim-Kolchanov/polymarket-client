@@ -7,6 +7,7 @@ import dev.kolchanov.polymarket.enums.Outcome
 
 /**
  * Example Message:
+ * ``` json
  * {
  *   "id": "0xdeca1466731736346fbc147c342faeb587e1aa0fbe627307ccd0950f3c9fa83f",
  *   "owner": "4f3475be-0005-7089-406b-e56e0488e70d",
@@ -28,6 +29,7 @@ import dev.kolchanov.polymarket.enums.Outcome
  *   "timestamp": "1764556003008",
  *   "event_type": "order"
  * }
+ * ```
  */
 @JsonIgnoreProperties(ignoreUnknown = true)
 class OrderEventMessageResponse(

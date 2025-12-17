@@ -157,7 +157,10 @@ val client = PolymarketClient(
         address = "0xYourWalletAddress",
         privateKey = "your-private-key",
         funderAddress = "0xYourFunderAddress",
-        chainId = 137L
+        chainId = 137L,
+        // A custom proxy wallet (SignatureType.POLY_PROXY) only used with users who logged in via Magic Link email/Google
+        // else use Gnosis Safe multisig proxy wallet (most common)
+        signatureType = SignatureType.POLY_GNOSIS_SAFE,
     )
 )
 ```
